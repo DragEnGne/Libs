@@ -9,6 +9,6 @@ export var lib = {
         return baseNum + subnum
     },
     muit(baseNum,muitnum){
-        
+        return baseNum * muitnum
     },
 }
