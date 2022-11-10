@@ -1,17 +1,17 @@
 export var LogIsTrue = 0
 export let logTYPE = [
-    "Init:",
-    "LOG:",
-    "WARN:",
-    "error",
+    "Init: ",
+    "LOG: ",
+    "WARN: ",
+    "error ",
 ]
 export let logFILENAME = [
-    "dlog.js",
-    "email.js",
-    "print.js"
+    "dlog.js ",
+    "email.js ",
+    "print.js "
 ]
 export let logFN = [
-    "email.genEmail",
+    "email.genEmail ",
     "print.out",
     "print.outError",
     "print.outWarn",
