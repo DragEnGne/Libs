@@ -1,0 +1,1 @@
+export var LogIsTrue = 0
