@@ -10,3 +10,5 @@ https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
 https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.js
 
 https://cryptojs.gitbook.io/docs/
+
+https://www.npmjs.com/package/encryptjs
