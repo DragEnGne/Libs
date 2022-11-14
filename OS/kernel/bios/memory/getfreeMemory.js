@@ -1,2 +1,2 @@
-import { uefi } from "./uefi";
+import { uefi } from "../uefi";
 export var KernelRamFreeMemory = uefi.freemem

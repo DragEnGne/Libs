@@ -1,4 +1,4 @@
-import { uefi } from "./uefi";
+import { uefi } from "../uefi";
 function bytesToSize(bytes) {
     for (var i = 0; i < sizes.length; i++) {
       if (bytes <= 1024) {
@@ -9,14 +9,4 @@ function bytesToSize(bytes) {
     }
     return bytes
 }
-export let KernelRamAmount= {
-    gig(){
-        uefi.totalmem() 
-    },
-    mb(){
-        uefi.freemem()
-    },
-    Kb(){
-
-    }
-}
+export let KernelRamAmount= uefi.totalmem()
