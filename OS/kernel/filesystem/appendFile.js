@@ -1,5 +1,5 @@
 import fs from 'fs'
-export function TFSAppendFile(FILENAME,FILEEXTENION,DATA){
+export function KernelTFSAppendFile(FILENAME,FILEEXTENION,DATA){
     fs.appendFile(`${FILENAME}.${FILEEXTENION}`, DATA, function (err) {
         if (err) throw err;
     });

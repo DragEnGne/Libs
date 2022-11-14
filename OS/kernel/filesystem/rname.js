@@ -1,5 +1,5 @@
 import fs from fs 
-export function TFSRenameFile(Target,Name){
+export function KernelTFSRenameFile(Target,Name){
     fs.rename(Target, Name, function (err) {
         if (err) throw err;
         console.log('File Renamed!');
