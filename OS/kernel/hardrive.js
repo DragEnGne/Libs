@@ -17,6 +17,6 @@ export let FileSystem = {
         KernelTFSAppendFile(Fname,Fext,FDATA)
     },
     DelFile(File){
-        KernelTFSDeleteFile(file)
+        KernelTFSDeleteFile(File)
     }
 }
