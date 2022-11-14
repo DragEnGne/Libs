@@ -1,7 +1,4 @@
-import os from 'os'
-function log(inp){
-    console.log(inp)
-}
-let cpuednen = os.freemem()
-log(os.platform())
-log(cpuednen)
+import { FileSystem } from "./OS/kernel/hardrive.js";
+//FileSystem.CreateFile("./gay",".ext")
+FileSystem.AppendFile("./gay",".ext","air forver one")
+FileSystem.DeleteFile("./gay.ext")
