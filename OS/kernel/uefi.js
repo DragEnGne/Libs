@@ -1,6 +1,6 @@
-import { KernelCpuInfo } from "./bios/Cpu/getCpuInfo.js";
-import { KernelCpuEndian } from "./bios/Cpu/getCpuendian.js";
-import { KernelCpuArch } from "./bios/Cpu/getCpuArch.js";
-import { KernelRamAmount } from "./bios/memory/GetAllram.js";
-import { KernelRamFreeMemory } from "./bios/memory/getfreeMemory.js";
-import { KernelGetBiosEnvioment } from "./bios/Cpu/getBiosEnvioment.js";
+import { KernelCpuInfo } from "./DrvFunction/bios/Cpu/getCpuInfo.js";
+import { KernelCpuEndian } from "./DrvFunction/bios/Cpu/getCpuendian.js.js";
+import { KernelCpuArch } from "./DrvFunction/bios/Cpu/getCpuArch.js.js";
+import { KernelRamAmount } from "./DrvFunction/bios/memory/GetAllram.js";
+import { KernelRamFreeMemory } from "./DrvFunction/bios/memory/getfreeMemory.js.js";
+import { KernelGetBiosEnvioment } from "./DrvFunction/bios/Cpu/getBiosEnvioment.js";
