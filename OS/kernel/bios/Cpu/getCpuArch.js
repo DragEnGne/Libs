@@ -1,2 +1,2 @@
-import { uefi } from "../uefi";
-export let  KernelCpuArch = uefi.arch()
+import { bios } from "../../imports/bios";
+export let  KernelCpuArch = bios.arch()

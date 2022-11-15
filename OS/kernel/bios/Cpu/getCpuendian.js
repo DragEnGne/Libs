@@ -1,3 +1,4 @@
-import { uefi } from "../uefi";
-export let KernelCpuEndian = uefi.endianness()	
+import { bios } from "../../imports/bios";
+
+export let KernelCpuEndian = bios.endianness()	
 	

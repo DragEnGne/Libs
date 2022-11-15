@@ -1,2 +1,2 @@
-import { uefi } from "../uefi";
-export var KernelRamFreeMemory = uefi.freemem
+import { bios } from "../../imports/bios.js";
+export var KernelRamFreeMemory = bios.freemem()

@@ -1,2 +1,2 @@
-import { uefi } from "../uefi";
-export let KernelCpuInfo = uefi.cpus()
+import { bios } from "../../imports/bios.js";
+export let KernelCpuInfo = bios.cpus()

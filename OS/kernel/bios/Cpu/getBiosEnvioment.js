@@ -1,2 +1,2 @@
-import uefi from '../uefi.js'
-export let KernelGetBiosEnvioment = uefi.platform()	
+import bios from '../../imports/bios.js'
+export let KernelGetBiosEnvioment = bios.platform()	../../imports/bios.js

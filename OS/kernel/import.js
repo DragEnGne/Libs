@@ -1,0 +1,12 @@
+import { KernelCpuInfo } from "./bios/Cpu/getCpuInfo.js";
+import { KernelCpuEndian } from "./bios/Cpu/getCpuendian.js";
+import { KernelCpuArch } from "./bios/Cpu/getCpuArch.js";
+import { KernelRamAmount } from "./bios/memory/GetAllram.js";
+import { KernelRamFreeMemory } from "./bios/memory/getfreeMemory.js";
+import { KernelGetBiosEnvioment } from "./bios/Cpu/getBiosEnvioment.js";
+import { KernelTFSWriteFile } from "./Filesystem/writefile.js"
+import { KernelTFSAppendFile } from "./Filesystem/appendFile.js.js"
+import { KernelTFSCreateFile } from "./Filesystem/createfile.js.js"
+import { KernelTFSDeleteFile } from "./Filesystem/DeleteFile.js.js"
+import { KernelTFSRenameFile } from "./Filesystem/rname.js"
+import { KernelTFSDeleteFolder } from './Filesystem/DeleteFolder.js.js';

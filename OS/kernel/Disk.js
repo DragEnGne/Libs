@@ -1,10 +1,10 @@
-import { KernelTFSWriteFile } from "./filesystem/writefile.js"
-import { KernelTFSAppendFile } from "./filesystem/appendFile.js"
-import { KernelTFSCreateFile } from "./filesystem/createfile.js"
-import { KernelTFSDeleteFile } from "./filesystem/DeleteFile.js"
-import { KernelTFSRenameFile } from "./filesystem/rname.js"
-import { KernelTFSDeleteFolder } from './filesystem/DeleteFolder.js';
-export let FileSystem = {
+import { KernelTFSWriteFile } from "./Filesystem/writefile.js"
+import { KernelTFSAppendFile } from "./Filesystem/appendFile.js.js"
+import { KernelTFSCreateFile } from "./Filesystem/createfile.js.js"
+import { KernelTFSDeleteFile } from "./Filesystem/DeleteFile.js.js"
+import { KernelTFSRenameFile } from "./Filesystem/rname.js"
+import { KernelTFSDeleteFolder } from './Filesystem/DeleteFolder.js.js';
+export let FileSys = {
     Rename(Tar,Name){
         KernelTFSRenameFile(Tar,Name)
     },
