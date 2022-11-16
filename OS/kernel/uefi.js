@@ -4,3 +4,4 @@ import { KernelCpuArch } from "./drv/function/bios/Cpu/getCpuArch.js";
 import { KernelRamAmount } from "./drv/function/bios/memory/GetAllram.js";
 import { KernelRamFreeMemory } from "./drv/function/bios/memory/getfreeMemory.js";
 import { KernelGetBiosEnvioment } from "./drv/function/bios/Cpu/getBiosEnvioment.js"
+Ep
