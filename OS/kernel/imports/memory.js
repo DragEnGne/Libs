@@ -1,5 +1,5 @@
 import { totalmem,freemem} from 'os' 
-export class memory{
+export class memory {
     GetSystemRam(){
         return totalmem()
     }

@@ -4,24 +4,25 @@ import { KernelCpuArch } from "./drv/function/bios/Cpu/getCpuArch.js";
 import { KernelRamAmount } from "./drv/function/bios/memory/GetAllram.js";
 import { KernelRamFreeMemory } from "./drv/function/bios/memory/getfreeMemory.js";
 import { KernelGetBiosEnvioment } from "./drv/function/bios/Cpu/getBiosEnvioment.js"
-export class cpu {
+export class Cpu {
+    GetEndian(){
+        return KernelCpuEndian()
+    }
+    CpuInfo(){
+        return KernelCpuInfo()
+    }
+    GetArch(){
+        return KernelCpuArch()
+    }    
+    GetSystemRam(){
+        return KernelRamAmount()
+    }
+    GetFreeRam(){
+        return KernelRamFreeMemory()
+    }    
+}
+export class uefi extends Cpu {
     GetSystemEnvionments(){
         return KernelGetBiosEnvioment()
     }
-    GetEndian(){
-        
-    }
-    CpuInfo(){
-        return KernelCpuInfo()
-    }
-}
-export class ram{
-
-}
-export class UEFI extends cpu{
-    CpuInfo(){
-        return KernelCpuInfo()
-    }
-
-
 }
