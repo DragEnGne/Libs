@@ -1,0 +1,10 @@
+{
+    "DrvGUIMangerName": "Uefi",
+    "DrvGUIMangerDesc": "The Base Firmware Of the motherBoad",
+    "DrvGUIMangerVer": 1.0,
+
+    "DrvTUIMangerName": "Uefi",
+    "DrvTUIMangerDesc": "The Base Firmware Of the motherBoad",
+    "DrvTUIMangerVer": 1.0,
+    "DrvType": "Kernel" 
+}

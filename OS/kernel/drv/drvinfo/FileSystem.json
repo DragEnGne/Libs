@@ -6,5 +6,5 @@
     "DrvTUIMangerName": "FileSystem",
     "DrvTUIMangerDesc": "This allow Interaction with os midem",
     "DrvTUIMangerVer": 1.0,
-    "DrvType": "Kernel"
+    "DrvType": "Kernel" 
 }

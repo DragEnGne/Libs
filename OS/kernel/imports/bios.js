@@ -1,2 +1,2 @@
-import os from 'os'
-export const bios = os
+import os from "os";
+export const bios = os;
